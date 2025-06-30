@@ -17,12 +17,12 @@ import {
 export default function Index() {
   const router = useRouter(); // using a hook to access the router
   
+  // fetches all movies from the API
   const { data: movies, 
           loading: moviesLoading, 
           error: moviesError 
   } = useFetch(() => fetchMovies({ 
     query: ``
-
   }));
 
   return (
