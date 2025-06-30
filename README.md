@@ -1,14 +1,25 @@
-# Welcome to your Expo app 👋
+# 🎬 Welcome to the Mobile Movie App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a cross-platform mobile app built using [Expo](https://expo.dev) and [React Native](https://reactnative.dev), designed to help users explore and save their favorite movies.
 
-## Get started
+## 🧰 Tech Stack
 
-1. Install dependencies
+- **React Native** – UI development
+- **Expo** – Development/building tools
+- **React Navigation** – App navigation
+- **TMDB API** – (optional) for fetching movie data
+- **AsyncStorage** – Local storage for saved movies
+- **TypeScript** – (optional) for static typing
+
+---
+
+## 🚀 Get Started
+
+1. Install dependencies:
 
    ```bash
    npm install
-   ```
+
 
 2. Start the app
 
