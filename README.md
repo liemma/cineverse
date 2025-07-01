@@ -7,9 +7,8 @@ This is a cross-platform mobile app built using [Expo](https://expo.dev) and [Re
 - **React Native** – UI development
 - **Expo** – Development/building tools
 - **React Navigation** – App navigation
-- **TMDB API** – (optional) for fetching movie data
-- **AsyncStorage** – Local storage for saved movies
-- **TypeScript** – (optional) for static typing
+- **TMDB API** – for fetching movie data
+- **TypeScript** – for static typing
 
 ---
 
