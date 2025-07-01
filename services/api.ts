@@ -29,6 +29,7 @@ export const fetchMovies = async ({
   return data.results;
 };
 
+// Will resolve into movie details
 export const fetchMovieDetails = async (
   movieId: string
 ): Promise<MovieDetails> => {
@@ -45,8 +46,8 @@ export const fetchMovieDetails = async (
       throw new Error(`Failed to fetch movie details: ${response.statusText}`);
     }
 
-    const data = await response.json();
-    return data;
+    const data = await response.json(); // Extract data
+    return data;  // Return data
   } catch (error) {
     console.error("Error fetching movie details:", error);
     throw error;
