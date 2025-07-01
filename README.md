@@ -1,4 +1,4 @@
-# 🎬 Welcome to the Mobile Movie App
+# 🎬 Welcome to the Cineverse
 
 This is a cross-platform mobile app built using [Expo](https://expo.dev) and [React Native](https://reactnative.dev), designed to help users explore and save their favorite movies.
 
